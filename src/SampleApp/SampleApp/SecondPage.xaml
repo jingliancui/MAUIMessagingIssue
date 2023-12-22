@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleApp.SecondPage"
+             Title="SecondPage">
+    <Button x:Name="DeleteBtn" Text="Do Delete" WidthRequest="200" HeightRequest="100" Command="{Binding DeleteCmd}"></Button>
+</ContentPage>
